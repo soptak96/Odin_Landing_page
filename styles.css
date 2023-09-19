@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
-    
-}
+
 
 header {
     background-color: #1f2937;
@@ -110,6 +108,7 @@ h1 {
     font-weight: 900;
     color: #1f2937;
     text-align: center;
+    margin-top: 30px;
     
 }
 
@@ -125,6 +124,7 @@ h1 {
 .icon-01 img, .icon-02 img, .icon-03 img, .icon-04 img {
     border: 3px solid #3882f6;
     border-radius: 10px;
+    box-shadow: 0 0 20px  rgb(206, 206, 206);
 }
 
 .icon-01, .icon-02, .icon-03, .icon-04 {
@@ -183,6 +183,11 @@ h1 {
     font-size: 20px;
 }
 
+.call-to-action p {
+    color: #e5e7eb;
+    margin-top: 5px;
+}
+
 .call-to-action button {
     padding: 5px 10px;
     flex-shrink: 0;
@@ -196,8 +201,12 @@ h1 {
     border: 1px solid #f9faf8;
 }
 
+
+
 footer {
     background-color: #1f2937;
     color: #f9faf8;
     font-size: 14px;
+    text-align: center;
+    padding: 25px 0;
 }
